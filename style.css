@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f2f2f2 !important;
+}
+.container{
+    background-color: #fff;
+}
+/* === HEADER -- NAV ================== */
+.header-container{
+    background: #fff !important;
+    height: 80px;
+    border-bottom: 6px double  #02b2c2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1100;
+}
+header .navbar{
+    text-align: right;
+}
+header .nav-link{
+    color: #000 !important;
+    position: relative;
+    z-index: 1000;
+    font-size: 1.3rem;
+}
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #02b2c2;
+    transform: scale(0);
+    transition: all .3s; 
+}
+header .nav-item a:hover::after{
+    transform: scale(1);
+}
+header .nav-item a:hover{
+    color:#02b2c2 !important;
+    font-weight: 600 !important;
+}
+h5{
+    font-size: 1rem !important;
+}
+
+/* ==== SECTION SOCIAL & HOME ================== */
+main{
+    margin-top: 80px;
+}
+.section-first .section-first-icon{
+    text-align: right;
+  }
+.section-p{
+   color: #17a2b8;
+   padding: 10px 0;
+   font-size: 1rem;
+   font-weight: 600;
+}
+.icon{
+    color: #02b2c2;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+i.fab.fa-youtube:hover{
+    color: #ff0000;
+}
+i.fab.fa-twitter:hover{
+    color: #1da1f2;
+}
+i.fab.fa-linkedin:hover{
+    color: #0077b5;
+}
+i.fab.fa-facebook-f:hover{
+    color: #0b84ed;
+}
+i.fab.fa-flickr:hover{
+    color: #a57568;
+}
+.fa-linkedin-in{
+    margin-right: 50px;
+}
+.icon:hover{
+    color:#fed602;
+    transition: all .3s;
+}
+.section-hr{
+    width: 50%;
+    margin: 0 auto; 
+    border: 1px solid #02b2c2;
+}
+/* ==== SECTION ABOUT ================== */
+span.carousel-control-next-icon{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+span.carousel-control-prev-icon{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+.grid-post .card{
+    border: 0;
+    border-radius: 0;
+}
+.grid-post .card-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+.grid-post .card-img-top{
+    border-radius: 0;
+}
+p.card-text{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: .75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+a.btn.btn-primary{
+    background-color:#668ccd;
+    border: none;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 1.5rem !important;
+}
+h3::before, h3::after{
+    content: '';
+    display: block;
+    width: 135px;
+    height: 2px;
+    background-color: #02b2c2;
+    margin: 15px 15px;
+}
+.img.card-img-top scale{
+    transition: all .5s;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+.grid-post .icon_it{
+    color: #007bff;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+p.text-md-center {
+    font-size: 1rem;
+}
+.btn{
+    font-size: 1rem !important;
+}
+
+/* ==== SECTION TOURISM INDUSTRY ================== */
+div.card.card-animation, div.card.card-tourism {
+    border: 0;
+}
+.card-animation{
+    align-items: center ;
+}
+.card-animation span {
+    font-size: 1rem;
+}
+#tourism .container{
+    border-bottom: 6px double  #02b2c2;
+    padding-bottom: 50px;
+}
+#contact .container-fluide{
+    padding-top: 50px;
+}
+.btn.btn-outline-success.my-sm-4{
+    border: 1px solid #000;
+    width: 150px;
+    color: #000;
+}
+.btn.my-sm-4:hover{
+    background-color: #f2f2f2;
+    transition: initial;
+}
+/* ==== Footer ================== */
+#footer{
+    width: 100%;
+    background-color:#0279b1;
+    color: #fff;
+    height: 250px;
+    text-align: center;
+    padding: 50px;
+    }
+footer .btn-outline-success{
+    color: #fff;
+    border: 1px solid #fff;
+}
+footer .form-control{
+    width: 250px !important;
+}
+
+footer .form{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 991px){
+p.card-text{
+    line-height: 1.2;
+    font-size: 0.75rem !important;
+} 
+.section-p{
+    font-size: 0.75rem;
+}
+.icon{
+    font-size: 1.1rem;
+}
+header .nav-link{
+    background-color:#3d444c;
+    opacity: .9;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+h3 {
+    letter-spacing: 1px;
+}
+.footer-social{
+    font-size: 1rem;
+    margin-right: 15px;
+}}
+
+@media(max-width: 767px){
+
+.section-first-h5 h5{
+    font-size: 0.75rem;
+    } 
+p.card-text{
+    line-height: 1.2;
+    font-size: 0.75rem !important;
+} 
+.section-p{
+    display: none;
+}
+header .nav-link{
+    background-color:#3d444c;
+    opacity: .9;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff !important;
+}
+h3::before, h3::after{
+    width: 60px;
+}
+.grid-post .btn {
+    font-size: 0.7rem !important;
+}
+h3 {
+    letter-spacing: 1px;
+}
+.section-first-icon .icon{
+    font-size: 1.5rem;    
+}}
+
+@media(max-width: 480px){
+footer .btn{
+    font-size: .7rem !important;
+}
+footer .form-control{
+    width: 250px !important;
+    font-size: .7rem !important;
+    margin-right: 5px;
+}
+h3::before, h3::after{
+    display: none;
+}
+.section-first-icon .icon{
+    font-size: 1.5rem;    
+}
+.footer-social{
+  font-size: 2rem;
+  margin-right: 15px;
+} }
+@media(max-width: 320px){
+
+.header-container{
+    padding: 0 !important;
+    height: 50px;
+}
+header .navbar-brand{
+    display: none;
+} 
+.icon{
+    margin-right: 15px;
+    font-size: 1.7rem;
+    padding: 10px 0 0 0;
+    
+} 
+.section-first-icon .icon{
+    display: none !important;
+}
+.footer-social{
+    display: none;
+}  
+header .navbar{
+    padding: 0;
+}
+.grid-post h3 {
+    letter-spacing: 2px;
+    text-align: center;
+}
+  h3::before, h3::after{
+    display: none;
+}
+.section-p{
+     display: none;
+}
+ .section-first .section-first-icon{
+    text-align: center;
+}
+  header .nav-link{
+    background-color:#3d444c;
+    opacity: .9;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff !important;
+}
+footer .form-control{
+    width: 130px !important;
+    font-size: .5rem !important;
+    margin-right: 5px;
+}
+footer .btn{
+    font-size: .5rem !important;
+}
+.slider{
+    display: none;
+}}
