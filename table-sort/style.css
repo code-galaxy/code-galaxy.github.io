@@ -33,12 +33,12 @@ header{
 .title_h1{
     font-family: Montserrat, sans-serif;
     color: #FF800B;
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 .text_p{
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 24px;
     line-height: 24px;
 }
 .text_wp{
@@ -48,7 +48,7 @@ header{
 .logo a{
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 24px;
     line-height: 24px;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@ header{
     font-weight: 500;
     line-height: 22px;
     margin-right: 50px;
-    font-size: 1em;
+    font-size: 24px;
 }
 ul li{
     list-style: none;
@@ -102,15 +102,15 @@ caption{
     font-weight: 600;
 }
 .dropdown span{
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 .dropdown div a{
     display: block;
     text-decoration: none;
     color: gray;
-    padding: 7px;
+    padding: 10px;
     font-family: sans-serif;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 500;
     text-align: center;
 }
@@ -205,7 +205,7 @@ footer{
     height: 100px;   
     line-height: 100px;
     background-color:#171626;
-    font-size: 0.75rem;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
