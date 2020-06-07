@@ -26,6 +26,7 @@ header{
 }
 .section_table .section_container{
     height: 100vh;
+    padding-bottom: 30px;
 }
 .title_h1{
     font-family: Montserrat, sans-serif;
@@ -140,13 +141,13 @@ table{
     border-spacing: 0;
 }
 .table_name strong{
-    font-size: 2rem;
+    font-size: 24px;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
 
 td{
-    padding: 1rem 0;
+    padding: 10px 0;
     border-bottom: 1px solid lightgray;
 }
 th{
