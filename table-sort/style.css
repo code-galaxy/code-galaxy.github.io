@@ -213,7 +213,7 @@ footer{
     font-family: 'Montserrat', sans-serif;
     margin-right: 15px;
 }
-/* ================= @media ===================== */
+/* ================= @media ==================== */
 @media screen and (max-width: 1200px){
     .container{
         width: 1200px;
