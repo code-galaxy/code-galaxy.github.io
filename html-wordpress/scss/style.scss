@@ -96,7 +96,6 @@ nav .nav_item:hover::after{
     grid-template-rows:  2fr 8fr 2fr;
     grid-gap: 1em;
 }
-
 .wrapper .light1, .light2, .light3{
     border: $border;
     padding: 1em;
@@ -106,10 +105,7 @@ nav .nav_item:hover::after{
     color: $bodyColor;
     
 }
-
-
 /* ============= Footer =============*/
-
 .footer{
     background-color: $hfBgColor;
     width: 100%;
