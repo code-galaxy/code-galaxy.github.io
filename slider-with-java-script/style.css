@@ -15,28 +15,34 @@ body{
     max-width: 700px;
     max-height: 700px;
     margin: 50px auto;
+    padding: 100px 0;
+    box-shadow: 0 0 20px #fff;
 }
 .section-slider .prev:after{
         content: "";
         display: block;
-        height: 25px;
-        width: 25px;
-        border-top: 7px solid #fff;
-        border-right: 7px solid #fff;
+        height: 30px;
+        width: 30px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid #fff;
         border-radius: 4px;
         position: absolute;
         z-index: 1;
+        margin-left: -15px;
         transform: translate(-30px, 10px) rotate(225deg);
+        cursor: pointer;
 }
 .section-slider .next:after{
     content: "";
     display: block;
-    height: 25px;
-    width: 25px;
-    border-top: 7px solid #fff;
-    border-right: 7px solid #fff;
+    height: 30px;
+    width: 30px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
     border-radius: 4px;
     position: absolute;
     z-index: 1;
-    transform: translate(5px, 10px) rotate(45deg);
+    margin-left: 15px;
+    transform: translate(-5px, 10px) rotate(45deg);
+    cursor: pointer;
 }
