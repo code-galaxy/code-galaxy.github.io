@@ -14,16 +14,20 @@ body{
     width: 100%;
     padding: 20px 50px;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     box-sizing: border-box;
     background-color: #555d66;
     border-bottom: 6px double #f8f9f9;
     /* box-shadow: 0 2px red; */
     position: fixed;
+    align-items: center;
 }
 /* .main-logo{
     width: 250px;
 } */
+.menu-bar{
+    display: none;
+}
 a{
     text-decoration: none;
     cursor: pointer;
@@ -34,11 +38,11 @@ a{
     font-size: 30px;
     font-weight: 900;
     letter-spacing: 3px;
-    color: #000;
+    color: #fff;
     cursor: pointer;
 }
 .logo1:hover{
-    color: red;  
+    color:#fff;  
 }
 
 .logo2{
@@ -46,7 +50,7 @@ a{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000;
+    color: #fff;
 }
 .header-nav{
     display: flex;
@@ -90,11 +94,11 @@ a.media{
     color: #fff; 
     padding: 5px 0;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 18px;
 }
 .header-social-icon{
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 a.media:hover{
     color: #fff; 
