@@ -288,26 +288,38 @@ h3::before, h3::after{
 @media(max-width: 320px){
 
 .header-container{
-    padding: 0 !important;
-    height: 50px;
+    height: 80px;
 }
+
 header .navbar-brand{
-    display: none;
+    transform: scale(0.6);
 } 
+
+div.col-md-12{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+}
 .icon{
     margin-right: 15px;
     font-size: 1.7rem;
     padding: 10px 0 0 0;
 } 
-.section-first-icon .icon{
+/* .section-first-icon .icon{
     display: none !important;
-}
+} */
 .footer-social{
     display: none;
 }  
-header .navbar{
-    padding: 0;
+nav.navbar{
+    /* display: flex;
+    justify-content: space-between; */
+    flex-wrap: nowrap;
+    padding: 0 !important;
+    width: 320px !important;
 }
+
 .grid-post h3 {
     letter-spacing: 2px;
     text-align: center;
