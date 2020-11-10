@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family:"Montserrat",sans-serif;
-    background-color:#32373c;
+    background-color:#fff;
 }
 .main-container{
     margin: 0 auto;
@@ -33,9 +33,9 @@ a{
 .logo1{
   
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
     color: red;
     /* border: 1px solid #fff; */
     /* border-radius: 3px; */
@@ -51,14 +51,14 @@ a{
     background-color: red;  */
 }
 
-.logo2{
+/* .logo2{
     text-decoration: none;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: red;
     padding: 0 5px;
-}
+} */
 .header-nav{
     display: flex;
     align-items: center;
@@ -69,8 +69,8 @@ a{
 .header-link{
     margin: 0 25px;
     color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-transform: uppercase;  
+    letter-spacing: 1px;
 }    
 
 .header-link:hover{
@@ -88,7 +88,7 @@ a{
     content: '';
     display: block;
     width: 100%;
-    height: 2px;
+    height: 1px;
     margin-top: 3px;
     transform: scale(0);
     transition: all .4s;
@@ -112,7 +112,7 @@ a.media{
 }
 .header-social-icon{
     margin: 0 10px;
-    font-size: 12px;
+    font-size: 10px;
 }
 a.media:hover{
     color: #fff; 
@@ -126,7 +126,6 @@ a.media:hover{
 }
 .menu-bar-icon{
     color: #fff;
-    font-size: 20px;
 }
 
 /* ============ MAIN ============ */
