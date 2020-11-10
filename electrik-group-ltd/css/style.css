@@ -22,8 +22,7 @@ body{
     grid-template-columns: 1fr 2fr 1fr;
     box-sizing: border-box;
     background-color: #000;
-    /* border-bottom: 1px solid #f8f9f9; */
-    /* box-shadow: 2px 2px 2px #fff;÷= */
+  
     position: fixed;
     z-index: 1000;
     align-items: center;
