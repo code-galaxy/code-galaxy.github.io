@@ -3,23 +3,26 @@ body{
     padding: 0;
     font-family:"Montserrat",sans-serif;
     background-color:#fff;
+    box-sizing: border-box;
 }
 .main-container{
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1350px;
     min-width: 320px;
+
     
 }
 /* ============ HEADER ============ */
 .header-container{
-    width: 100%;
+    width: 1350px;
+    height: 70px;
     padding: 10px 50px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     box-sizing: border-box;
     background-color: #000;
-    /* border-bottom: 1px solid #f8f9f9; */
-    /* box-shadow: 2px 2px 2px #fff;÷= */
+  
     position: fixed;
     z-index: 1000;
     align-items: center;
@@ -32,9 +35,13 @@ a{
 .logo1{
   
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 22px;
+>>>>>>> 4c8ed38072bc20f5cfbb08999599a0cd3619a3ba
     font-weight: bold;
-    /* letter-spacing: 1px; */
+    letter-spacing: 1px;
     color: red;
     /* border: 1px solid #fff; */
     /* border-radius: 3px; */
@@ -66,7 +73,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 .header-link{
@@ -113,7 +120,7 @@ a.media{
     color: #fff; 
     padding: 2px 0;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .header-social-icon{
     margin: 0 10px;
@@ -137,11 +144,10 @@ a.media:hover{
 /* ============ MAIN ============ */
 
 .container{
-    width: 90%;
-    padding: 50px 50px;
-    /* margin-top: 100px; */
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
+    max-width: 1350px;
+    padding: 10px 50px;
+    background-color: gray;
+    top: 150px;
 
 
 }
