@@ -7,19 +7,19 @@ body{
 }
 .main-container{
     margin: 0 auto;
-    max-width: 1350px;
+    max-width: 100%;
     min-width: 320px;
 
     
 }
 /* ============ HEADER ============ */
 .header-container{
-    width: 1350px;
+    width: 100%;
     height: 70px;
     padding: 10px 50px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr;
     box-sizing: border-box;
     background-color: #000;
   
@@ -140,10 +140,11 @@ a.media:hover{
 /* ============ MAIN ============ */
 
 .container{
-    max-width: 1350px;
+    max-width: 100%;
+    height: 100vh;
     padding: 10px 50px;
-    background-color: gray;
-    top: 150px;
+    background: linear-gradient( #9198e5, #9198e5);
+    top: 100px;
 
 
 }
