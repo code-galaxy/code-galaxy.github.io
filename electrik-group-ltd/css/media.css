@@ -1,7 +1,11 @@
-
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1350px){
     .main-container{
-        max-width: 100%;
+        max-width: 1350px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .main-container{
+        max-width: 1100px;
     }
     .header-container{
         padding: 15px 15px;
@@ -28,7 +32,7 @@
     
     @media screen and (max-width: 320px){
         .main-container{
-            max-width: 100%;
+            max-width: 320px;
         }
         .header-container{
             padding: 15px 15px;
@@ -53,6 +57,5 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative;
+        
         }
-    }
