@@ -22,7 +22,6 @@ $(".sup_esport").click(function(){
     $("[class*=sport_f]").hide();
     $("[class*=sup_sport]").hide();
     $("[class*=esport_e]").show();
-    $(this).css("color","#111");
 
 });
 
