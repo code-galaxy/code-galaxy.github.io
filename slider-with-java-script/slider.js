@@ -7,7 +7,7 @@ let slider = {
     sliderImg: document.getElementById("slider-img"),
 
     start: function () {
-        var that = this;
+        let that = this;
 
         // ====== subscribe to events ======
 
