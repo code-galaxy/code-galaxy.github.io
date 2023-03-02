@@ -19,7 +19,7 @@ $(".sup_sport").click(function(){
     
 });
 $(".sup_esport").click(function(){
-    $("[class*=spo
+    $("[class*=sp
     
     
 
