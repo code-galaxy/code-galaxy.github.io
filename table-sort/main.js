@@ -18,7 +18,7 @@ $(".sup_sport").click(function(){
     $("[class*=btn]").hide();
     
 });
-$(".sup_esport").clic
+$(".sup_esport").cli
     
     
     
