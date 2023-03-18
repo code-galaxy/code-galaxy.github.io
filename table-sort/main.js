@@ -18,7 +18,4 @@ $(".sup_sport").click(function(){
     $("[class*=btn]").hide();
     
 });
-$(".sup_espor
-    
-
-
+$(".sup_espo
