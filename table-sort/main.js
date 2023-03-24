@@ -17,5 +17,5 @@ $(".sup_sport").click(function(){
     $(this).css("color","#111");
     $("[class*=btn]").hide();
     
-});
+})
 
