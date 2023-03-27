@@ -15,5 +15,4 @@ $(".sup_sport").click(function(){
     $("[class*=sup_esport]").hide();
     $("[class*=sport_f]").show();
     $(this).css("color","#111");
-    $("[class*=btn]").hide(
-   
+    $("[class*=btn]").hide
