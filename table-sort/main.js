@@ -12,4 +12,3 @@ $(".game").click(function(){
 
 $(".sup_sport").click(function(){
     $("[class*=esport_e]").hide();
-    $("
