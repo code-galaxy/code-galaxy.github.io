@@ -11,4 +11,4 @@ $(".game").click(function(){
 });
 
 $(".sup_sport").click(function(){
-    $("[class*=espo
+    $("[clas
